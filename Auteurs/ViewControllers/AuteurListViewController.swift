@@ -61,7 +61,7 @@ extension AuteurListViewController: UITableViewDataSource {
       withIdentifier: "Cell",
       for: indexPath) as! AuteurTableViewCell
     let auteur = auteurs[indexPath.row]
-    cell.bioLabel.text = auteur.bio
+    cell.bioLabel.text = "tttt" //auteur.bio
     cell.auteurImageView.image = UIImage(named: auteur.image)
     cell.nameLabel.text = auteur.name
     cell.source.text = auteur.source
